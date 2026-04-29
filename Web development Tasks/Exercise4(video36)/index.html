@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        :root{
+            --primary-color: #f3c0f0;
+            --secondary-color: #2f3130;
+            --font-family: 'Arial', sans-serif;
+            --font-color:rgb(234, 166, 166) ;
+        }
+        .header{
+            background-color: var(--secondary-color);
+            height: 8vh;
+            width: 100%;
+        }
+        body{
+            background-color: var(--primary-color) ;
+            
+        }
+        ul {
+            display: flex;
+            list-style: none ;
+             gap: 5px; 
+        }
+        li{
+            color: var(--font-color);
+            padding: 2%;
+            
+        }
+    </style>
+</head>
+
+<body>
+        <header class="header">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </nav>
+        </header>
+</body>
+
+</html>

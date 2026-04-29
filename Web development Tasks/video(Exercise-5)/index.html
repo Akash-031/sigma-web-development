@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --primary-color: pink;
+            --secondary-color: black;
+            --next-color: rgb(233, 233, 219);
+            --main1-color: lightblue;
+            --main2-color: lightgreen;
+
+        }
+
+        body {
+            background-color: var(--primary-color);
+            height: 200vh;
+        }
+
+        .header {
+            height: 8vh;
+            width: 100%;
+            background-color: var(--secondary-color);
+            color: var(--next-color);
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: flex-end;
+            gap: 15px;
+            align-items: center;
+            font-size: clamp(14px, 2vw, 20px);
+            padding-top: 1.2rem;
+            padding-right: 1.2rem;
+
+
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: var(--next-color);
+        }
+
+        .main1 {
+            height: 52vh;
+            width: 40vw;
+            background-color: var(--main1-color);
+
+
+        }
+
+        .main2 {
+            height: 52vh;
+            width: 40vw;
+            background-color: var(--main2-color);
+
+
+        }
+
+        .main {
+            display: flex;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            justify-content: space-between;
+            margin-top: 5rem;
+
+
+        }
+        .foot{
+            background-color: var(--secondary-color);
+            height: 9vh;
+            width: 100%;
+            color: wheat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            bottom: 0;
+            
+            
+        }
+        p{
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <ul>
+            <li> <a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <div class="main">
+
+        <div class="main1">
+            <main>
+
+            </main>
+
+        </div>
+
+
+        <div class="main2">
+            <main>
+
+            </main>
+        </div>
+
+
+    </div>
+
+
+    <footer class="foot">
+        <div>
+            <p> This is first font page with Header and Footer </p>
+        </div>
+    </footer>
+</body>
+
+</html>
